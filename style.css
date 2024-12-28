@@ -40,7 +40,9 @@ a {
 
 .hero-image {
     display: flex;
+    justify-content: center;
     margin-bottom: 48px;
+    gap: 48px;
 }
 
 .hero-content {
@@ -72,6 +74,25 @@ a {
 .image-hold {
     background-color: gray;
     display: flex;
-    height: 200px;
+    height: 250px;
     width: 500px;
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+    padding-left: 125px;
+}
+
+.container-2 {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
 }
