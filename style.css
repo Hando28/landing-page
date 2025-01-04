@@ -62,13 +62,14 @@ a {
     margin-bottom: 12px;
 }
 
-.Sign-up {
+button.Sign-up {
     background-color: #3882f6;
     color: #f9faf8;
     border-style: none;
     border-radius: 8px;
     padding: 8px 32px;
     margin-bottom: 48px;
+    cursor: pointer;
 }
 
 .image-hold {
@@ -139,4 +140,39 @@ a {
     font-weight: bold;
     margin-left: 500px;
     margin-bottom: 100px;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    width: 700px;
+    border-radius: 8px;   
+    padding: 50px 100px;
+    margin: 100px 500px;
+    gap: 100px;
+}
+
+.modal-header {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.modal-info {
+    font-size: medium;
+    font-weight:400;
+    color: #e5e7eb;
+}
+
+button.modal-Sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 2px #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+    margin: auto;
 }
