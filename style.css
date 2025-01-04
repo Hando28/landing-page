@@ -176,3 +176,12 @@ button.modal-Sign-up {
     cursor: pointer;
     margin: auto;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 35px 50px;
+}
